@@ -1,6 +1,6 @@
 import { Phone, ChevronRight, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import clinicBg from '../assets/images/regenerated_image_1777735859784.png';
+import clinicBg from '../assets/images/regenerated_image_1777627660380.png';
 
 export default function Services() {
   const serviceCategories = [
