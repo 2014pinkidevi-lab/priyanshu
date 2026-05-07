@@ -2,6 +2,17 @@ import { Phone, ChevronRight, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import clinicBg from '../assets/images/regenerated_image_1777627660380.png';
 
+import img1 from '../assets/images/regenerated_image_1778131856457.jpg';
+import img2 from '../assets/images/regenerated_image_1778131858126.jpg';
+import img3 from '../assets/images/regenerated_image_1778131859467.jpg';
+import img4 from '../assets/images/regenerated_image_1778131860861.jpg';
+import img5 from '../assets/images/regenerated_image_1777736779991.jpg';
+
+import t1b from '../assets/images/regenerated_image_1778131634807.jpg';
+import t1a from '../assets/images/regenerated_image_1778131636244.jpg';
+import t2b from '../assets/images/regenerated_image_1778131638408.jpg';
+import t2a from '../assets/images/regenerated_image_1778131639932.jpg';
+
 export default function Services() {
   const serviceCategories = [
     {
@@ -150,6 +161,70 @@ export default function Services() {
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-blue-900/20 mix-blend-multiply"></div>
+        </div>
+
+        {/* Transformations / Before-After Section */}
+        <div className="mb-20">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Real Transformations</h2>
+            <p className="text-lg text-gray-600">See the difference our treatments can make.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col md:flex-row gap-4 items-center">
+              <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden shadow-inner">
+                <span className="absolute top-2 left-2 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded z-10">Before</span>
+                <div className="aspect-square w-full bg-gray-200">
+                  <img src={t1b} alt="Before Treatment" className="w-full h-full object-cover grayscale opacity-80" />
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden shadow-inner">
+                <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded z-10">After</span>
+                <div className="aspect-square w-full bg-gray-200">
+                  <img src={t1a} alt="After Treatment" className="w-full h-full object-cover" />
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col md:flex-row gap-4 items-center">
+              <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden shadow-inner">
+                <span className="absolute top-2 left-2 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded z-10">Before</span>
+                <div className="aspect-square w-full bg-gray-200">
+                  <img src={t2b} alt="Before Treatment" className="w-full h-full object-cover grayscale opacity-80" />
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 relative rounded-xl overflow-hidden shadow-inner">
+                <span className="absolute top-2 left-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded z-10">After</span>
+                <div className="aspect-square w-full bg-gray-200">
+                  <img src={t2a} alt="After Treatment" className="w-full h-full object-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Normal Gallery Section */}
+        <div className="mb-20">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Clinic Gallery</h2>
+            <p className="text-lg text-gray-600">A glimpse into our state-of-the-art facility and team.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div className="rounded-xl overflow-hidden shadow-sm aspect-[4/5] object-cover">
+              <img src={img1} alt="Clinic view 1" className="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-sm aspect-[4/5] object-cover">
+              <img src={img2} alt="Clinic view 2" className="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-sm aspect-[4/5] object-cover">
+              <img src={img3} alt="Clinic view 3" className="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-sm aspect-[4/5] object-cover">
+              <img src={img4} alt="Clinic view 4" className="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-sm aspect-[4/5] object-cover">
+              <img src={img5} alt="Clinic view 5" className="w-full h-full object-cover hover:scale-105 transition duration-500" />
+            </div>
+          </div>
         </div>
 
         {/* Testimonials */}

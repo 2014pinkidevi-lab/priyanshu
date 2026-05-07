@@ -2,8 +2,8 @@ import img1 from '../assets/images/regenerated_image_1777735854392.png';
 import img2 from '../assets/images/regenerated_image_1777735856971.png';
 import img3 from '../assets/images/regenerated_image_1777627660380.png';
 import img4 from '../assets/images/regenerated_image_1777736779991.jpg';
-import img5 from '../assets/images/regenerated_image_1777735867930.png';
-import img6 from '../assets/images/regenerated_image_1777735913436.png';
+import img5 from '../assets/images/regenerated_image_1778132944769.png';
+import img6 from '../assets/images/regenerated_image_1778132252194.jpg';
 import img7 from '../assets/images/regenerated_image_1777736779991.jpg';
 import img8 from '../assets/images/regenerated_image_1777735913436.png';
 
