@@ -26,7 +26,7 @@ export default function Layout() {
           <div className="flex space-x-6">
             <div className="flex items-center space-x-2">
               <Clock size={16} />
-              <span>11:00 AM - 8:00 PM (No Lunch Break)</span>
+              <span>11:00 AM - 8:00 PM</span>
             </div>
             <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-200 transition">
               <MapPin size={16} />
@@ -218,7 +218,7 @@ export default function Layout() {
                <div className="flex items-center space-x-3 mb-4">
                  <Clock className="text-blue-400" size={24} />
                  <div>
-                   <p className="font-medium text-white">Full Day Open</p>
+                   <p className="font-medium text-white">Clinic Timings</p>
                    <p className="text-gray-400 text-sm">Perfect for office-goers</p>
                  </div>
                </div>
@@ -226,9 +226,6 @@ export default function Layout() {
                  <div className="flex justify-between border-b border-gray-700 pb-2">
                    <span>Monday - Sunday</span>
                    <span className="font-medium text-white">11:00 AM - 8:00 PM</span>
-                 </div>
-                 <div className="pt-2 text-sm text-blue-400 font-medium text-center">
-                    (NO LUNCH BREAK)
                  </div>
                </div>
              </div>

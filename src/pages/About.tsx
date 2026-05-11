@@ -66,7 +66,7 @@ export default function About() {
               <ul className="space-y-3">
                 {[
                   "Strict Sterilization & Hygiene Protocols",
-                  "Convenient Timing: 11 AM - 8 PM with No Lunch Breaks",
+                  "Convenient Timing: 11 AM - 8 PM",
                   "Centrally Located at Worli (Opp. Canara Bank)",
                   "Family-friendly environment tailored for all ages"
                 ].map((item, idx) => (

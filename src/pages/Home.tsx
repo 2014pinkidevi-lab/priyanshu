@@ -67,7 +67,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">Perfect for Office Goers</p>
-                  <p className="font-bold text-gray-900 leading-tight">11 AM - 8 PM<br/><span className="text-blue-600">No Lunch Break</span></p>
+                  <p className="font-bold text-gray-900 leading-tight">11 AM - 8 PM</p>
                 </div>
               </div>
             </div>
