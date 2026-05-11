@@ -2,6 +2,8 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import { Phone, Clock, MapPin, Menu, X, Instagram } from 'lucide-react';
 import { useState } from 'react';
 
+import logoImg from '../assets/images/regenerated_image_1778509934328.jpg';
+
 export default function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -28,7 +30,7 @@ export default function Layout() {
             </div>
             <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-200 transition">
               <MapPin size={16} />
-              <span>Worli Naka, Mumbai</span>
+              <span>Worli, Mumbai</span>
             </a>
           </div>
           <div className="flex items-center space-x-6 font-medium">
@@ -49,20 +51,8 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <div className="flex items-center justify-center">
-              <div className="w-12 h-12 md:w-14 md:h-14 flex-shrink-0 relative flex items-center justify-center mr-1">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-md">
-                  <rect width="48" height="48" rx="14" fill="url(#logo-gradient)"/>
-                  <path d="M16 19C16 15 18.5 13.5 21 14.5C23.5 15.5 24 19 24 19C24 19 24.5 15.5 27 14.5C29.5 13.5 32 15 32 19C32 24.5 29.5 29 28 33C27.3 34.5 25.2 34.5 24.5 33L24 32C24 31.4 23.6 31 23 31C22.4 31 22 31.4 22 32L21.5 33C20.8 34.5 18.7 34.5 18 33C16.5 29 16 24.5 16 19Z" fill="white"/>
-                  <circle cx="24" cy="11" r="1.5" fill="#BFDBFE"/>
-                  <circle cx="15" cy="14.5" r="1" fill="#BFDBFE"/>
-                  <circle cx="33" cy="14.5" r="1" fill="#BFDBFE"/>
-                  <defs>
-                    <linearGradient id="logo-gradient" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#1D4ED8"/>
-                      <stop offset="1" stopColor="#3B82F6"/>
-                    </linearGradient>
-                  </defs>
-                </svg>
+              <div className="w-12 h-12 md:w-14 md:h-14 flex-shrink-0 relative flex items-center justify-center mr-1 rounded-full overflow-hidden bg-white shadow-sm border border-gray-100">
+                <img src={logoImg} alt="Shree Ganesh Dental Clinic Logo" className="w-full h-full object-contain" />
               </div>
             </div>
             <div>
@@ -181,20 +171,8 @@ export default function Layout() {
           <div>
             <div className="flex items-center space-x-2 mb-6">
                <div className="flex items-center justify-center">
-                <div className="w-12 h-12 flex-shrink-0 relative flex items-center justify-center mr-1">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-sm">
-                    <rect width="48" height="48" rx="14" fill="url(#logo-gradient-footer)"/>
-                    <path d="M16 19C16 15 18.5 13.5 21 14.5C23.5 15.5 24 19 24 19C24 19 24.5 15.5 27 14.5C29.5 13.5 32 15 32 19C32 24.5 29.5 29 28 33C27.3 34.5 25.2 34.5 24.5 33L24 32C24 31.4 23.6 31 23 31C22.4 31 22 31.4 22 32L21.5 33C20.8 34.5 18.7 34.5 18 33C16.5 29 16 24.5 16 19Z" fill="white"/>
-                    <circle cx="24" cy="11" r="1.5" fill="#BFDBFE"/>
-                    <circle cx="15" cy="14.5" r="1" fill="#BFDBFE"/>
-                    <circle cx="33" cy="14.5" r="1" fill="#BFDBFE"/>
-                    <defs>
-                      <linearGradient id="logo-gradient-footer" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#1D4ED8"/>
-                        <stop offset="1" stopColor="#3B82F6"/>
-                      </linearGradient>
-                    </defs>
-                  </svg>
+                <div className="w-12 h-12 flex-shrink-0 relative flex items-center justify-center mr-1 rounded-full overflow-hidden bg-white shadow-sm border border-gray-100">
+                  <img src={logoImg} alt="Shree Ganesh Dental Clinic Logo" className="w-full h-full object-contain" />
                 </div>
               </div>
               <div>
@@ -213,7 +191,7 @@ export default function Layout() {
               <div className="flex items-start">
                 <MapPin className="text-blue-500 mt-1 mr-3 flex-shrink-0" size={20} />
                 <p className="text-gray-300">
-                  2nd Floor, Ready Money Terrace, 201, Dr Annie Besant Rd, Opp. Canara Bank, <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">Worli Naka, Mumbai 400018</a>.
+                  2nd Floor, Ready Money Terrace, 201, Dr Annie Besant Rd, Opp. Canara Bank, <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">Worli, Mumbai 400018</a>.
                 </p>
               </div>
               <div className="flex items-start">

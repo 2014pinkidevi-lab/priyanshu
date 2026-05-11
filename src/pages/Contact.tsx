@@ -72,7 +72,7 @@ export default function Contact() {
                   <p className="text-gray-600 leading-relaxed">
                     2nd Floor, Ready Money Terrace,<br/>
                     201, Dr Annie Besant Rd,<br/>
-                    <span className="font-bold text-blue-800 bg-blue-50 px-1 mt-1 inline-block">Opp. Canara Bank</span>, Worli Naka,<br/>
+                    <span className="font-bold text-blue-800 bg-blue-50 px-1 mt-1 inline-block">Opp. Canara Bank</span>, Worli,<br/>
                     Mumbai 400018.
                   </p>
                   <a 
@@ -127,10 +127,10 @@ export default function Contact() {
                <MapPin size={48} className="text-gray-400 mb-4" />
                <h3 className="text-2xl font-bold text-gray-700 mb-2">Interactive Map Area</h3>
                <p className="text-gray-500 mb-6">
-                 (Embed actual Google Maps iframe here using the Worli Naka address)
+                 (Embed actual Google Maps iframe here using the Worli address)
                </p>
                <a 
-                 href="https://maps.google.com/?q=2nd+Floor,+Ready+Money+Terrace,+201,+Dr+Annie+Besant+Rd,+Opp.+Canara+Bank,+Worli+Naka,+Mumbai+400018" 
+                 href="https://maps.google.com/?q=2nd+Floor,+Ready+Money+Terrace,+201,+Dr+Annie+Besant+Rd,+Opp.+Canara+Bank,+Worli,+Mumbai+400018" 
                  target="_blank"
                  rel="noopener noreferrer"
                  className="inline-flex items-center px-6 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition"

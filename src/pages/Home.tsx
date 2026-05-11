@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, CheckCircle2, Star, Clock, ArrowRight } from 'lucide-react';
-import generatedHeroImg from '../assets/images/regenerated_image_1777735867930.png';
+import generatedHeroImg from '../assets/images/regenerated_image_1778510057320.jpg';
 
 export default function Home() {
   return (
@@ -13,19 +13,22 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 bg-blue-100 text-blue-800 font-semibold rounded-full text-sm mb-6 shadow-sm hover:bg-blue-200 transition">
-              Worli Naka, Mumbai
+              Worli, Mumbai
             </a>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-              <span className="text-blue-600">Painless Dentistry</span> in Worli
+              <span className="text-blue-600">Multi-speciality Dental Clinic</span> in Worli
             </h1>
+            <p className="text-2xl text-gray-700 font-semibold mb-2">
+              We care about your smile
+            </p>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Experience modern, hygienic, and gentle dental care. We fit into your busy schedule with our full-day availability.
+              At Shree Ganesh Dental Clinic, we are committed to providing the highest quality dental care in a hygienic, comfortable, and friendly environment. Our goal is to make every visit a smooth and Comfortable while helping you achieve a healthy and confident smile.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <a href="tel:8888086156" className="inline-flex justify-center items-center px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition shadow-lg hover:shadow-xl hover:-translate-y-0.5 duration-200">
                 <Phone className="mr-2" size={20} />
-                Call Dr. Aasawari
+                Book Appointment
               </a>
               <Link to="/services" className="inline-flex justify-center items-center px-8 py-4 bg-white text-blue-700 font-bold rounded-full border-2 border-blue-100 hover:border-blue-200 hover:bg-blue-50 transition shadow-sm">
                 Explore Services
@@ -111,40 +114,51 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Patient Testimonials</h2>
             <p className="text-xl text-blue-700 max-w-2xl mx-auto">See what our patients have to say about their experience.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-blue-100 relative">
-              <div className="flex text-yellow-400 mb-4">
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                text: "Thank you Dr. Aasawari and Dr. Akshay for being patient and giving me the best treatment. Your friendly nature and the comfort helped me to overcome my fear...☺️👍🏻",
+                author: "Gauri Gaonkar"
+              },
+              {
+                text: "Professional, courteous, and friendly doctors made me feel like family. My root canal was painless and quick. Highly recommend!”",
+                author: "Mandar Pawar"
+              },
+              {
+                text: "Very happy with my treatment here. The doctors were knowledgeable and highly professional, hygienic clinic equipped with a modern setup",
+                author: "Akshay Dhamapurkar"
+              },
+              {
+                text: "I would like to sincerely thank Dr. Akshay Gajakosh and Dr. Asawari for their professional advice, care, and support throughout my dental treatment. Their guidance on dental scaling and the tooth extraction process was clear, reassuring, and handled with great expertise. I truly appreciated the time they took to explain each step and ensure my comfort. The entire experience was smooth and well-managed, and I’m grateful for the compassionate approach they both brought to the treatment.",
+                author: "Nimisha Hotkar"
+              },
+              {
+                text: "I recently visited Shree Ganesh Dental Clinic for a check up..found out that I had a cavity with one of my tooth which was troubling me for quite sometime...Dr Aasawari was very patient with me and made sure that I was very comfortable during the whole treatment..she explained the whole procedure to me very properly..I was very happy with the treatment also it was a pain-free experience.. Thanks and kudos to Dr Akshay and Dr Aasawari,definitely my go to dentist from now on..",
+                author: "Nidhi Rathod"
+              },
+              {
+                text: "One of the best dentists i have ever come across!!! Dr Aasawari was extremely patient and handled my queries and my treatment with atmost care!!!! Thank you for making my dental experience nice!!",
+                author: "Henna mehta"
+              },
+              {
+                text: "Thankyou Dr. Aasawari for a very comfortable experience! Highly recommended!",
+                author: "Samruddhi Shastrakar"
+              }
+            ].map((testimonial, idx) => (
+              <div key={idx} className="bg-white p-8 rounded-2xl shadow-sm border border-blue-100 flex flex-col justify-between">
+                <div>
+                  <div className="flex text-yellow-400 mb-4">
+                    <Star className="fill-current" size={20} />
+                    <Star className="fill-current" size={20} />
+                    <Star className="fill-current" size={20} />
+                    <Star className="fill-current" size={20} />
+                    <Star className="fill-current" size={20} />
+                  </div>
+                  <p className="text-gray-700 italic mb-6 leading-relaxed">"{testimonial.text}"</p>
+                </div>
+                <p className="font-bold text-gray-900">— {testimonial.author}</p>
               </div>
-              <p className="text-gray-700 italic mb-6 leading-relaxed">"Excellent experience! Dr. Akshay was very patient and the treatment was truly painless. Highly recommend Shree Ganesh Dental Clinic."</p>
-              <p className="font-bold text-gray-900">— Rahul S.</p>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-blue-100 relative">
-              <div className="flex text-yellow-400 mb-4">
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-              </div>
-              <p className="text-gray-700 italic mb-6 leading-relaxed">"Very professional and clean clinic. Dr. Aasawari explained the entire procedure clearly. The clinic environment is very soothing."</p>
-              <p className="font-bold text-gray-900">— Priya M.</p>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-blue-100 relative">
-              <div className="flex text-yellow-400 mb-4">
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-                <Star className="fill-current" size={20} />
-              </div>
-              <p className="text-gray-700 italic mb-6 leading-relaxed">"Got my root canal done here. Best dental experience I've ever had. No waiting time and modern equipment. Highly skilled doctors."</p>
-              <p className="font-bold text-gray-900">— Amit V.</p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -165,7 +179,7 @@ export default function Home() {
           </a>
           <p className="mt-6 text-blue-200 font-medium">
              <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="hover:text-white underline underline-offset-4">
-                Located opposite Canara Bank, Worli Naka
+                Located opposite Canara Bank, Worli
              </a>
           </p>
         </div>

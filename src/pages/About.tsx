@@ -1,5 +1,5 @@
 import { Phone, CheckCircle2 } from 'lucide-react';
-import aboutImg from '../assets/images/regenerated_image_1777735856971.png';
+import aboutImg from '../assets/images/regenerated_image_1778510950017.jpg';
 
 export default function About() {
   return (
@@ -22,7 +22,7 @@ export default function About() {
             {/* Image Side */}
             <div className="relative">
               <div className="absolute inset-0 bg-blue-600 rounded-3xl transform translate-x-4 translate-y-4 opacity-10"></div>
-              <div className="relative aspect-[4/5] bg-blue-50 rounded-3xl overflow-hidden shadow-xl flex items-center justify-center">
+              <div className="relative aspect-[4/3] bg-blue-50 rounded-3xl overflow-hidden shadow-xl flex items-center justify-center">
                  <img 
                   src={aboutImg} 
                   onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"; e.currentTarget.onerror = null; }}
@@ -44,19 +44,20 @@ export default function About() {
                 
                 <div className="mb-6 pb-6 border-b border-gray-200">
                   <h4 className="text-lg font-bold text-gray-900 flex items-center">
-                    Dr. Akshay <span className="text-sm font-normal text-blue-600 ml-2">(Lead Surgeon / Dentist)</span>
+                    Dr. Akshay <span className="text-sm font-normal text-blue-600 ml-2">(Lead Surgeon & Co-founder)</span>
                   </h4>
                   <p className="text-gray-600 mt-2">
-                    As our Lead Surgeon, Dr. Akshay brings years of precise clinical expertise to every procedure. Specializing in advanced treatments from complex extractions to full smile makeovers, his steady hands and deep knowledge ensure the best possible clinical outcomes for long-term oral health.
+                    MDS in Oral Implantology & Prosthodontics, Dr. Akshay combines years of clinical precision with advanced expertise in dental implants and full-mouth rehabilitation. As our Lead Surgeon, he specializes in everything from complex extractions to aesthetic smile designing and TMJ disorders. With steady hands and a deep focus on long-term oral health, he ensures every patient receives world-class clinical outcomes and a perfected smile.
                   </p>
                 </div>
                 
                 <div>
-                  <h4 className="text-lg font-bold text-gray-900 flex items-center">
-                    Dr. Aasawari <span className="text-sm font-normal text-blue-600 ml-2">(Primary Contact & Consultation)</span>
+                  <h4 className="text-lg font-bold text-gray-900 flex items-center mb-1">
+                    Dr. Aasawari <span className="text-sm font-normal text-blue-600 ml-2">(Co-founder)</span>
                   </h4>
+                  <p className="text-sm text-gray-500 mb-2 font-medium">BDS, Fellowship in Forensic Odontology</p>
                   <p className="text-gray-600 mt-2">
-                    Dr. Aasawari is the friendly voice you hear when you reach out to us. She personally attends all calls to provide tailored, expert guidance from the very start. Her empathetic approach ensures you are well-informed and comfortable before you even step into the clinic.
+                    Dr. Aasawari is the friendly voice you hear when you reach out to us, personally attending all calls to provide tailored, expert guidance from the very start. With over 5 years of experience in general dentistry and a specialization in Root Canal Treatment and Cosmetic Dentistry, she ensures every patient is well-informed. Her empathetic approach makes you feel comfortable and cared for even before you step into the clinic.
                   </p>
                 </div>
               </div>
@@ -66,7 +67,7 @@ export default function About() {
                 {[
                   "Strict Sterilization & Hygiene Protocols",
                   "Convenient Timing: 11 AM - 8 PM with No Lunch Breaks",
-                  "Centrally Located at Worli Naka (Opp. Canara Bank)",
+                  "Centrally Located at Worli (Opp. Canara Bank)",
                   "Family-friendly environment tailored for all ages"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start">
