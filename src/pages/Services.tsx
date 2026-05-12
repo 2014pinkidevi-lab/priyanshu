@@ -7,7 +7,7 @@ import img2 from '../assets/images/regenerated_image_1778131858126.jpg';
 import img3 from '../assets/images/regenerated_image_1778131859467.jpg';
 import img4 from '../assets/images/regenerated_image_1778131860861.jpg';
 
-import t1b from '../assets/images/regenerated_image_1778131634807.jpg';
+import t1b from '../assets/images/regenerated_image_1778592430354.png';
 import t1a from '../assets/images/regenerated_image_1778131636244.jpg';
 import t2b from '../assets/images/regenerated_image_1778131638408.jpg';
 import t2a from '../assets/images/regenerated_image_1778131639932.jpg';

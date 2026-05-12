@@ -66,7 +66,6 @@ export default function Home() {
                   <Clock size={28} />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500 font-medium">Perfect for Office Goers</p>
                   <p className="font-bold text-gray-900 leading-tight">11 AM - 8 PM</p>
                 </div>
               </div>

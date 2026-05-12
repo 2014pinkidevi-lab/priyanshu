@@ -217,7 +217,6 @@ export default function Layout() {
                  <Clock className="text-blue-400" size={24} />
                  <div>
                    <p className="font-medium text-white">Clinic Timings</p>
-                   <p className="text-gray-400 text-sm">Perfect for office-goers</p>
                  </div>
                </div>
                <div className="space-y-2 mt-4 text-gray-300">

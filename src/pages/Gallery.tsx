@@ -3,12 +3,9 @@ import img2 from '../assets/images/regenerated_image_1777735856971.png';
 import img3 from '../assets/images/regenerated_image_1777627660380.png';
 import img4 from '../assets/images/regenerated_image_1777736779991.jpg';
 import img9 from '../assets/images/regenerated_image_1778576542499.png';
-import img5 from '../assets/images/regenerated_image_1778132944769.png';
-import img6 from '../assets/images/regenerated_image_1778132252194.jpg';
-import img7 from '../assets/images/regenerated_image_1777736779991.jpg';
 import img8 from '../assets/images/regenerated_image_1777735913436.png';
 
-import t1b from '../assets/images/regenerated_image_1778131634807.jpg';
+import t1b from '../assets/images/regenerated_image_1778592430354.png';
 import t1a from '../assets/images/regenerated_image_1778131636244.jpg';
 import t2b from '../assets/images/regenerated_image_1778131638408.jpg';
 import t2a from '../assets/images/regenerated_image_1778131639932.jpg';
@@ -44,24 +41,6 @@ export default function Gallery() {
       fallbackUrl: img9,
       alt: "Reception Area",
       caption: "Pooja and Entrance"
-    },
-    {
-      url: img5,
-      fallbackUrl: img5,
-      alt: "Signage",
-      caption: "Glowing Signage"
-    },
-    {
-      url: img6,
-      fallbackUrl: img6,
-      alt: "Waiting Area",
-      caption: "Comfortable Waiting Lounge"
-    },
-    {
-      url: img7,
-      fallbackUrl: img7,
-      alt: "Treatment Area",
-      caption: "Hygienic Environment"
     }
   ];
 
