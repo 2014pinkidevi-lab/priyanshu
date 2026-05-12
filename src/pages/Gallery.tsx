@@ -5,10 +5,12 @@ import img4 from '../assets/images/regenerated_image_1777736779991.jpg';
 import img9 from '../assets/images/regenerated_image_1778576542499.png';
 import img8 from '../assets/images/regenerated_image_1777735913436.png';
 
-import t1b from '../assets/images/regenerated_image_1778592430354.png';
+import t1b from '../assets/images/regenerated_image_1778595180767.jpg';
 import t1a from '../assets/images/regenerated_image_1778131636244.jpg';
 import t2b from '../assets/images/regenerated_image_1778131638408.jpg';
 import t2a from '../assets/images/regenerated_image_1778131639932.jpg';
+import t3b from '../assets/images/regenerated_image_1778596210278.png';
+import t3a from '../assets/images/regenerated_image_1778596213628.png';
 
 export default function Gallery() {
   const images = [
@@ -88,7 +90,7 @@ export default function Gallery() {
               Real results of our specialized dental treatments.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Case 1 */}
             <div className="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col gap-4">
               <div>
@@ -120,6 +122,23 @@ export default function Gallery() {
                 </div>
               </div>
             </div>
+
+            {/* Case 3 */}
+            <div className="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col gap-4">
+              <div>
+                <h4 className="text-center text-sm font-bold text-gray-500 mb-2 uppercase tracking-wider">Before</h4>
+                <div className="relative rounded-xl overflow-hidden aspect-square">
+                  <img src={t3b} alt="Before treatment snapshot 3" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <div>
+                <h4 className="text-center text-sm font-bold text-green-600 mb-2 uppercase tracking-wider">After</h4>
+                <div className="relative rounded-xl overflow-hidden aspect-square">
+                  <img src={t3a} alt="After treatment snapshot 3" className="w-full h-full object-cover" />
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
