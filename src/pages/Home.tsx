@@ -12,7 +12,7 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 bg-blue-100 text-blue-800 font-semibold rounded-full text-sm mb-6 shadow-sm hover:bg-blue-200 transition">
+            <a href="https://maps.app.goo.gl/5igDs8oTkLvRZSXTA?g_st=aw" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 bg-blue-100 text-blue-800 font-semibold rounded-full text-sm mb-6 shadow-sm hover:bg-blue-200 transition">
               Worli, Mumbai
             </a>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
@@ -178,7 +178,7 @@ export default function Home() {
             Call: 88880 86156
           </a>
           <p className="mt-6 text-blue-200 font-medium">
-             <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="hover:text-white underline underline-offset-4">
+             <a href="https://maps.app.goo.gl/5igDs8oTkLvRZSXTA?g_st=aw" target="_blank" rel="noopener noreferrer" className="hover:text-white underline underline-offset-4">
                 Located opposite Canara Bank, Worli
              </a>
           </p>

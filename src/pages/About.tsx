@@ -22,12 +22,12 @@ export default function About() {
             {/* Image Side */}
             <div className="relative">
               <div className="absolute inset-0 bg-blue-600 rounded-3xl transform translate-x-4 translate-y-4 opacity-10"></div>
-              <div className="relative aspect-[4/3] bg-blue-50 rounded-3xl overflow-hidden shadow-xl flex items-center justify-center">
+              <div className="relative bg-blue-50 rounded-3xl overflow-hidden shadow-xl flex items-center justify-center">
                  <img 
                   src={aboutImg} 
                   onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"; e.currentTarget.onerror = null; }}
                   alt="Dr Akshay and Dr Aasawari inside clinic" 
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="w-full h-auto object-cover block"
                 />
               </div>
             </div>

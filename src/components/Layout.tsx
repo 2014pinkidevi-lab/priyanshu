@@ -28,7 +28,7 @@ export default function Layout() {
               <Clock size={16} />
               <span>11:00 AM - 8:00 PM</span>
             </div>
-            <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-200 transition">
+            <a href="https://maps.app.goo.gl/5igDs8oTkLvRZSXTA?g_st=aw" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-200 transition">
               <MapPin size={16} />
               <span>Worli, Mumbai</span>
             </a>
@@ -191,15 +191,13 @@ export default function Layout() {
               <div className="flex items-start">
                 <MapPin className="text-blue-500 mt-1 mr-3 flex-shrink-0" size={20} />
                 <p className="text-gray-300">
-                  2nd Floor, Ready Money Terrace, 201, Dr Annie Besant Rd, Opp. Canara Bank, <a href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">Worli, Mumbai 400018</a>.
+                  2nd Floor, Ready Money Terrace, 201, Dr Annie Besant Rd, Opp. Canara Bank, <a href="https://maps.app.goo.gl/5igDs8oTkLvRZSXTA?g_st=aw" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">Worli, Mumbai 400018</a>.
                 </p>
               </div>
               <div className="flex items-start">
                 <Phone className="text-blue-500 mt-1 mr-3 flex-shrink-0" size={20} />
                 <div className="text-gray-300">
-                  <p className="font-medium text-white mb-1">Reception / Bookings</p>
                   <a href="tel:8888086156" className="hover:text-blue-400 block mb-2">Dr. Aasawari: 88880 86156</a>
-                  <p className="font-medium text-white mt-3 mb-1">Lead Surgeon</p>
                   <a href="tel:8356879112" className="hover:text-blue-400 block">Dr. Akshay: 83568 79112</a>
                 </div>
               </div>
@@ -224,7 +222,7 @@ export default function Layout() {
                </div>
                <div className="space-y-2 mt-4 text-gray-300">
                  <div className="flex justify-between border-b border-gray-700 pb-2">
-                   <span>Monday - Sunday</span>
+                   <span>Monday - Saturday</span>
                    <span className="font-medium text-white">11:00 AM - 8:00 PM</span>
                  </div>
                </div>

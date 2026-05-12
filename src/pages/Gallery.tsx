@@ -2,10 +2,16 @@ import img1 from '../assets/images/regenerated_image_1777735854392.png';
 import img2 from '../assets/images/regenerated_image_1777735856971.png';
 import img3 from '../assets/images/regenerated_image_1777627660380.png';
 import img4 from '../assets/images/regenerated_image_1777736779991.jpg';
+import img9 from '../assets/images/regenerated_image_1778576542499.png';
 import img5 from '../assets/images/regenerated_image_1778132944769.png';
 import img6 from '../assets/images/regenerated_image_1778132252194.jpg';
 import img7 from '../assets/images/regenerated_image_1777736779991.jpg';
 import img8 from '../assets/images/regenerated_image_1777735913436.png';
+
+import t1b from '../assets/images/regenerated_image_1778131634807.jpg';
+import t1a from '../assets/images/regenerated_image_1778131636244.jpg';
+import t2b from '../assets/images/regenerated_image_1778131638408.jpg';
+import t2a from '../assets/images/regenerated_image_1778131639932.jpg';
 
 export default function Gallery() {
   const images = [
@@ -34,8 +40,8 @@ export default function Gallery() {
       caption: "State-of-the-Art Treatment"
     },
     {
-      url: img4,
-      fallbackUrl: img4,
+      url: img9,
+      fallbackUrl: img9,
       alt: "Reception Area",
       caption: "Pooja and Entrance"
     },
@@ -72,7 +78,7 @@ export default function Gallery() {
 
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8">
             {images.map((image, index) => (
               <div key={index} className="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 bg-gray-100">
                 <div className="aspect-[4/3] w-full bg-gray-200 flex items-center justify-center text-gray-400 relative">
@@ -86,10 +92,55 @@ export default function Gallery() {
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  <p className="text-white font-bold text-lg">{image.caption}</p>
+                  <p className="text-white font-bold max-text-sm md:text-lg">{image.caption}</p>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Before and After Section */}
+      <section className="bg-white py-16 md:py-24 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Before and After</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Real results of our specialized dental treatments.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Case 1 */}
+            <div className="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col gap-4">
+              <div>
+                <h4 className="text-center text-sm font-bold text-gray-500 mb-2 uppercase tracking-wider">Before</h4>
+                <div className="relative rounded-xl overflow-hidden aspect-square">
+                  <img src={t1b} alt="Before treatment snapshot 1" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <div>
+                <h4 className="text-center text-sm font-bold text-green-600 mb-2 uppercase tracking-wider">After</h4>
+                <div className="relative rounded-xl overflow-hidden aspect-square">
+                  <img src={t1a} alt="After treatment snapshot 1" className="w-full h-full object-cover" />
+                </div>
+              </div>
+            </div>
+
+            {/* Case 2 */}
+            <div className="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col gap-4">
+              <div>
+                <h4 className="text-center text-sm font-bold text-gray-500 mb-2 uppercase tracking-wider">Before</h4>
+                <div className="relative rounded-xl overflow-hidden aspect-square">
+                  <img src={t2b} alt="Before treatment snapshot 2" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <div>
+                <h4 className="text-center text-sm font-bold text-green-600 mb-2 uppercase tracking-wider">After</h4>
+                <div className="relative rounded-xl overflow-hidden aspect-square">
+                  <img src={t2a} alt="After treatment snapshot 2" className="w-full h-full object-cover" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

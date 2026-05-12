@@ -54,10 +54,6 @@ export default function Contact() {
                       WhatsApp Us
                     </a>
                   </div>
-                  <div>
-                    <span className="text-sm text-gray-500">Lead Surgeon:</span>
-                    <a href="tel:8356879112" className="text-sm font-bold text-blue-700 ml-2 hover:underline">Dr. Akshay - 83568 79112</a>
-                  </div>
                 </div>
               </div>
 
@@ -76,7 +72,7 @@ export default function Contact() {
                     Mumbai 400018.
                   </p>
                   <a 
-                    href="https://maps.app.goo.gl/Czg34RFuiokUXpjX6?g_st=aw" 
+                    href="https://maps.app.goo.gl/5igDs8oTkLvRZSXTA?g_st=aw" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition mt-2 underline"
