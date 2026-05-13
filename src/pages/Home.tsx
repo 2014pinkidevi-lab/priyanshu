@@ -22,7 +22,7 @@ export default function Home() {
               We care about your smile
             </p>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              At Shree Ganesh Dental Clinic, we are committed to providing the highest quality dental care in a hygienic, comfortable, and friendly environment. Our goal is to make every visit a smooth and Comfortable while helping you achieve a healthy and confident smile.
+              At Shree Ganesh Dental Clinic, we are committed to providing the highest quality dental care in a hygienic, comfortable, and friendly environment. Our goal is to make every visit smooth and comfortable, while helping you achieve a healthy and confident smile.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-10">

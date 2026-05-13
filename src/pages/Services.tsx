@@ -21,37 +21,37 @@ export default function Services() {
       services: [
         {
           title: "Implant & Dentures",
-          tagline: "Daant lagwana aur nakli daant.",
+          tagline: "दांत लगवाना और नकली दांत।",
           description: "Replace missing teeth with stable, durable, and natural-looking dental implants or custom dentures.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a4.5 4.5 0 0 0-4.5 4.5v1.5a3 3 0 0 0-3 3v2.5a3 3 0 0 0 3 3v3a2 2 0 0 0 4 0v-2.5h1v2.5a2 2 0 0 0 4 0v-3a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3v-1.5A4.5 4.5 0 0 0 12 3z"/></svg>
         },
         {
           title: "Root Canal Treatment (RCT)",
-          tagline: "Dard se rahat ke liye painless ilaaj.",
+          tagline: "दर्द से राहत के लिए पेनलेस इलाज।",
           description: "Don't let the fear of pain keep you from resolving deep tooth decay. Our modern techniques ensure a smooth, painless procedure.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v6"/><path d="m10 6 2-2 2 2"/><path d="M12 22v-4"/><path d="m14 20-2 2-2-2"/><path d="M2.5 12h5"/><path d="m6 10 2 2-2 2"/><path d="M21.5 12h-5"/><path d="m18 10-2 2 2 2"/><path d="M12 8a4 4 0 0 0-4 4v4h8v-4a4 4 0 0 0-4-4z"/></svg>
         },
         {
           title: "Tooth Removal / Extraction",
-          tagline: "Kharab daant nikalna (Wisdom tooth surgery).",
+          tagline: "खराब दांत निकालना (विज़डम टूथ सर्जरी)।",
           description: "Expert removal of heavily damaged teeth and complex impacted wisdom teeth with rapid healing.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 6-2 4 2 4 2-4-2-4z"/><path d="M12 14v4"/><path d="M4.93 4.93 8.46 8.46"/><path d="m15.54 15.54 3.53 3.53"/><path d="M19.07 4.93 15.54 8.46"/><path d="m8.46 15.54-3.53 3.53"/><path d="M22 12h-4"/><path d="M6 12H2"/></svg>
         },
         {
           title: "Gum Surgeries",
-          tagline: "Masoodon ki surgery.",
+          tagline: "मसूड़ों की सर्जरी।",
           description: "Advanced treatments to repair receding gums, treat infections, and restore gum health.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
         },
         {
           title: "Crowns and Bridges",
-          tagline: "Daant par cap ya bridge lagwana.",
+          tagline: "दांत पर कैप या ब्रिज लगवाना।",
           description: "Custom-made tooth crowns (caps) and bridges to cover damaged teeth and bridge gaps.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12h20"/><path d="M4 12v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/><path d="M12 2v10"/></svg>
         },
         {
           title: "Fillings",
-          tagline: "Cavity aur daant ki bharai.",
+          tagline: "कैविटी और दांत की भराई।",
           description: "High-quality, tooth-colored composite materials used safely to fill cavities and stop decay.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><circle cx="12" cy="12" r="4"/></svg>
         }
@@ -64,25 +64,25 @@ export default function Services() {
       services: [
         {
           title: "Invisalign & Clear Aligners",
-          tagline: "Bina taar ke daant seedhe karna.",
+          tagline: "बिना तार के दांत सीधे करना।",
           description: "Straighten your teeth comfortably and discreetly with practically invisible aligners.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 12c-1.8 0-3 1.2-3 3 0 1.2.6 3 3 3 1.8 0 3-1.2 3-3s-1.2-3-3-3Z"/><path d="M7 12c-1.8 0-3 1.2-3 3 0 1.2.6 3 3 3 1.8 0 3-1.2 3-3s-1.2-3-3-3Z"/><path d="M10 15c.6 0 1-1.4 1-3v-3a2 2 0 1 1 4 0v3c0 1.6.4 3 1 3"/><path d="M17 9c-1.8 0-3 1.2-3 3"/><path d="M7 9c1.8 0 3 1.2 3 3"/></svg>
         },
         {
           title: "Braces",
-          tagline: "Daant seedhe karne wale taar.",
+          tagline: "दांत सीधे करने वाले तार।",
           description: "Traditional and modern orthodontic options to effectively correct bites and crowding over time.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 10h-2V8h2v2zm-8 0H8V8h2v2zm12 0h-2V8h2v2zM6 10H4V8h2v2zm6 12c-3.31 0-6-2.69-6-6h2c0 2.21 1.79 4 4 4s4-1.79 4-4h2c0 3.31-2.69 6-6 6zm6-6h2v-2h-2v2zm-8 0H8v-2h2v2z"/></svg>
         },
         {
           title: "Smile Design / Veneers",
-          tagline: "Smile ko sundar banana.",
+          tagline: "स्माइल को सुंदर बनाना।",
           description: "Custom-made veneers tailored perfectly to your facial structure for a complete, glamorous smile makeover.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m8 14 4 2 4-2"/><path d="m9 9 .01.01"/><path d="m15 9 .01.01"/></svg>
         },
         {
           title: "Teeth Whitening",
-          tagline: "Daant chamkana.",
+          tagline: "दांत चमकाना।",
           description: "Professional whitening procedures to remove deep stains and dramatically brighten your teeth.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
         }
@@ -95,13 +95,13 @@ export default function Services() {
       services: [
         {
           title: "Teeth Cleaning / Scaling",
-          tagline: "Daanton ki safai aur chamak.",
+          tagline: "दांतों की सफाई और चमक।",
           description: "Detailed professional scaling to remove built-up plaque, preventing gingivitis and freshening your breath.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
         },
         {
           title: "Oral Health Consultation",
-          tagline: "Dr. Akshay aur Dr. Aasawari ke dwara expert salah.",
+          tagline: "डॉ. अक्षय और डॉ. आसावरी के द्वारा एक्सपर्ट सलाह।",
           description: "Comprehensive dental checkups, personalized planning, and expert answers from our lead doctors.",
           icon: <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
         }
