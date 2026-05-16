@@ -1,48 +1,47 @@
-import img1 from '../assets/images/regenerated_image_1777735854392.png';
-import img2 from '../assets/images/regenerated_image_1777735856971.png';
-import img3 from '../assets/images/regenerated_image_1777627660380.png';
-import img4 from '../assets/images/regenerated_image_1777736779991.jpg';
-import img9 from '../assets/images/regenerated_image_1778576542499.png';
-import img8 from '../assets/images/regenerated_image_1777735913436.png';
+import galleryImg1 from '../assets/images/regenerated_image_1778918128541.png';
+import galleryImg2 from '../assets/images/regenerated_image_1778918130329.png';
+import galleryImg3 from '../assets/images/regenerated_image_1778918132960.png';
+import galleryImg4 from '../assets/images/regenerated_image_1778918135052.png';
+import galleryImg5 from '../assets/images/regenerated_image_1778918767719.png';
 
 import t1b from '../assets/images/regenerated_image_1778595180767.jpg';
 import t1a from '../assets/images/regenerated_image_1778131636244.jpg';
 import t2b from '../assets/images/regenerated_image_1778131638408.jpg';
 import t2a from '../assets/images/regenerated_image_1778131639932.jpg';
-import t3b from '../assets/images/regenerated_image_1778596210278.png';
-import t3a from '../assets/images/regenerated_image_1778596213628.png';
+import t3b from '../assets/images/regenerated_image_1778919664294.png';
+import t3a from '../assets/images/regenerated_image_1778918318781.webp';
 
 export default function Gallery() {
   const images = [
     {
-      url: img8,
-      fallbackUrl: img8,
-      alt: "Shree Ganesh Dental Clinic Logo",
-      caption: "Our Clinic Logo"
+      url: galleryImg1,
+      fallbackUrl: galleryImg1,
+      alt: "Clinic Facility",
+      caption: "High-Quality Care Center"
     },
     {
-      url: img1,
-      fallbackUrl: img1,
+      url: galleryImg2,
+      fallbackUrl: galleryImg2,
       alt: "Clinic Interior",
       caption: "Advanced Dental Equipment"
     },
     {
-      url: img2,
-      fallbackUrl: img2,
-      alt: "Clinic Entrance",
-      caption: "Welcome to Our Clinic"
+      url: galleryImg3,
+      fallbackUrl: galleryImg3,
+      alt: "Clinic Setup",
+      caption: "Modern Treatment Tools"
     },
     {
-      url: img3,
-      fallbackUrl: img3,
+      url: galleryImg4,
+      fallbackUrl: galleryImg4,
       alt: "Dental Care Room",
       caption: "State-of-the-Art Treatment"
     },
     {
-      url: img9,
-      fallbackUrl: img9,
-      alt: "Reception Area",
-      caption: "Pooja and Entrance"
+      url: galleryImg5,
+      fallbackUrl: galleryImg5,
+      alt: "Dental Environment",
+      caption: "Clean & Hygienic Space"
     }
   ];
 

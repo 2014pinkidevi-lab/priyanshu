@@ -83,10 +83,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "Root Canal (RCT)", desc: "Painless & quick procedure." },
-              { title: "Dental Implants", desc: "Permanent & natural look." },
-              { title: "Invisalign & Braces", desc: "Clear aligners & smile design." },
-              { title: "Smile Makeover", desc: "Cosmetic dentistry & aesthetics." }
+              { title: "Implant & Dentures", desc: "हमेशा के लिए दांत लगवाना।" },
+              { title: "Tooth Removal", desc: "बिना दर्द के दांत निकालना।" },
+              { title: "Braces & Whitening", desc: "स्माइल को सुंदर बनाना।" },
+              { title: "Restorative Fillings", desc: "कैविटी से बचाव और इलाज।" }
             ].map((service, idx) => (
               <div key={idx} className="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:border-blue-200 hover:shadow-md transition cursor-pointer group">
                 <CheckCircle2 className="text-blue-500 mb-4 group-hover:scale-110 transition-transform" size={32} />
