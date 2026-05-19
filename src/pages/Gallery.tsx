@@ -1,5 +1,5 @@
 import galleryImg1 from '../assets/images/regenerated_image_1778918128541.png';
-import galleryImg2 from '../assets/images/regenerated_image_1778918130329.png';
+import galleryImg2 from '../assets/images/regenerated_image_1779176347070.png';
 import galleryImg3 from '../assets/images/regenerated_image_1778918132960.png';
 import galleryImg4 from '../assets/images/regenerated_image_1778918135052.png';
 import galleryImg5 from '../assets/images/regenerated_image_1778918767719.png';
